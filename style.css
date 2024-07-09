@@ -1,9 +1,30 @@
+:root {
+    --primary-color: orange;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+    font-size: 14;
+}
+
 .card-container {
-    
+    border: 1px solid #000;
+    max-width: 1200px;
+    width: 90%;
+    display: grid;
+    margin: 2rem;
+    background-color: var(--primary-color);
 }
 
 .card{
-
+/* border: 1px solid black; */
+/* height: 200px; */
 }
 
 .card-link {
@@ -35,5 +56,5 @@
 }
 
 .card-date {
-    
+
 }
