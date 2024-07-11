@@ -6,4 +6,4 @@
 
 ## HTML
 - Setting up basic structure
-- Linked  ro css file
+- Linked with css file
